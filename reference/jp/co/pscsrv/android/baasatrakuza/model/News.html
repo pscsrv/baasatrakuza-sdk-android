@@ -18,7 +18,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":42,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":42,"i28":42,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":42,"i35":42,"i36":42,"i37":10,"i38":42,"i39":10,"i40":10,"i41":10,"i42":10,"i43":10,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10,"i49":10,"i50":10,"i51":10,"i52":10,"i53":10,"i54":10,"i55":10,"i56":10,"i57":10,"i58":10,"i59":10,"i60":10,"i61":10,"i62":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":42,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":42,"i33":42,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10,"i39":42,"i40":42,"i41":42,"i42":10,"i43":42,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10,"i49":10,"i50":10,"i51":10,"i52":10,"i53":10,"i54":10,"i55":10,"i56":10,"i57":10,"i58":10,"i59":10,"i60":10,"i61":10,"i62":10,"i63":10,"i64":10,"i65":10,"i66":10,"i67":10,"i68":10,"i69":10,"i70":10,"i71":10,"i72":10};
 var tabs = {65535:["t0","すべてのメソッド"],2:["t2","インスタンス・メソッド"],8:["t4","concreteメソッド"],32:["t6","非推奨のメソッド"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -256,150 +256,180 @@ extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseD
 </td>
 </tr>
 <tr id="i11" class="rowColor">
+<td class="colFirst"><code>java.lang.Integer</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getFavoriteCount--">getFavoriteCount</a></span>()</code>
+<div class="block">お気に入り件数を取得します。</div>
+</td>
+</tr>
+<tr id="i12" class="altColor">
+<td class="colFirst"><code>java.util.Calendar</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getFavoriteDate--">getFavoriteDate</a></span>()</code>
+<div class="block">お気に入り更新日時を取得します。</div>
+</td>
+</tr>
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getGenre--">getGenre</a></span>()</code>
 <div class="block">ジャンルコードを取得します。</div>
 </td>
 </tr>
-<tr id="i12" class="altColor">
+<tr id="i14" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getGenreName--">getGenreName</a></span>()</code>
 <div class="block">ジャンル名を取得します。</div>
 </td>
 </tr>
-<tr id="i13" class="rowColor">
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">News</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getInstance-java.lang.String-">getInstance</a></span>(java.lang.String&nbsp;json)</code>
 <div class="block">規定フォーマットのJSONから各フィールドを設定したお知らせモデルを生成します。</div>
 </td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getInstanceList-java.lang.String-">getInstanceList</a></span>(java.lang.String&nbsp;json)</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;&nbsp;</div>
 </td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i17" class="rowColor">
+<td class="colFirst"><code>java.lang.Boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getIsFavorite--">getIsFavorite</a></span>()</code>
+<div class="block">お気に入り登録フラグを取得します。</div>
+</td>
+</tr>
+<tr id="i18" class="altColor">
 <td class="colFirst"><code>java.lang.Boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getMatchSegmentFlg--">getMatchSegmentFlg</a></span>()</code>
 <div class="block">配信条件一致フラグを取得します。</div>
 </td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getNewsId--">getNewsId</a></span>()</code>
 <div class="block">ニュースIDを取得します。</div>
 </td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code>java.util.Map&lt;java.lang.String,java.lang.Object&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getNewsSegmentConditions--">getNewsSegmentConditions</a></span>()</code>
 <div class="block">配信状況情報を取得します。</div>
 </td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i21" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getPhoto--">getPhoto</a></span>()</code>
 <div class="block">TOP画像を取得します。</div>
 </td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i22" class="altColor">
 <td class="colFirst"><code>java.util.Calendar</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getPushTime--">getPushTime</a></span>()</code>
 <div class="block">プッシュ通知予約日時を取得します。</div>
 </td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i23" class="rowColor">
+<td class="colFirst"><code>java.util.Calendar</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReadedDte--">getReadedDte</a></span>()</code>
+<div class="block">既読日時を取得します。</div>
+</td>
+</tr>
+<tr id="i24" class="altColor">
+<td class="colFirst"><code>java.lang.Boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReadedFlg--">getReadedFlg</a></span>()</code>
+<div class="block">既読フラグを取得します。</div>
+</td>
+</tr>
+<tr id="i25" class="rowColor">
 <td class="colFirst"><code>java.util.Calendar</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReleaseEndDate--">getReleaseEndDate</a></span>()</code>
 <div class="block">公開終了日時を取得します。</div>
 </td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i26" class="altColor">
 <td class="colFirst"><code>java.util.Calendar</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReleaseFromDate--">getReleaseFromDate</a></span>()</code>
 <div class="block">公開開始日時を取得します。</div>
 </td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i27" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReleaseTargetKbn--">getReleaseTargetKbn</a></span>()</code>
 <div class="block">公開対象者区分を取得します。</div>
 </td>
 </tr>
-<tr id="i23" class="rowColor">
+<tr id="i28" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getReleaseTargetKbnName--">getReleaseTargetKbnName</a></span>()</code>
 <div class="block">公開対象者区分名称を取得します。</div>
 </td>
 </tr>
-<tr id="i24" class="altColor">
+<tr id="i29" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getTenantId--">getTenantId</a></span>()</code>
 <div class="block">テナントIDを取得します。</div>
 </td>
 </tr>
-<tr id="i25" class="rowColor">
+<tr id="i30" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getTitle--">getTitle</a></span>()</code>
 <div class="block">タイトルを取得します。</div>
 </td>
 </tr>
-<tr id="i26" class="altColor">
+<tr id="i31" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#getUrl--">getUrl</a></span>()</code>
 <div class="block">ニュースURLを取得します。</div>
 </td>
 </tr>
-<tr id="i27" class="rowColor">
+<tr id="i32" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#initFixationItems--">initFixationItems</a></span>()</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;&nbsp;</div>
 </td>
 </tr>
-<tr id="i28" class="altColor">
+<tr id="i33" class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#initUnnecessaryItems--">initUnnecessaryItems</a></span>()</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;&nbsp;</div>
 </td>
 </tr>
-<tr id="i29" class="rowColor">
+<tr id="i34" class="altColor">
 <td class="colFirst"><code>java.lang.Boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#isPushDoneFlg--">isPushDoneFlg</a></span>()</code>
 <div class="block">プッシュ通知済みかどうかを取得します。</div>
 </td>
 </tr>
-<tr id="i30" class="altColor">
+<tr id="i35" class="rowColor">
 <td class="colFirst"><code>java.lang.Boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#isReleaseFlg--">isReleaseFlg</a></span>()</code>
 <div class="block">公開されているかどうかを取得します。</div>
 </td>
 </tr>
-<tr id="i31" class="rowColor">
+<tr id="i36" class="altColor">
 <td class="colFirst"><code>java.lang.Boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#isRssFlg--">isRssFlg</a></span>()</code>
 <div class="block">RSSI出力するかどうかを取得します。</div>
 </td>
 </tr>
-<tr id="i32" class="altColor">
+<tr id="i37" class="rowColor">
 <td class="colFirst"><code>java.lang.Boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#isUsePushFlg--">isUsePushFlg</a></span>()</code>
 <div class="block">プッシュ配信を利用しているかどうかを取得します。</div>
 </td>
 </tr>
-<tr id="i33" class="rowColor">
+<tr id="i38" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#removeArrributesValue-java.lang.String-">removeArrributesValue</a></span>(java.lang.String&nbsp;key)</code>
 <div class="block">自由項目のデータを削除します。</div>
 </td>
 </tr>
-<tr id="i34" class="altColor">
+<tr id="i39" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#removeFixationItemsFromAttributes--">removeFixationItemsFromAttributes</a></span>()</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;&nbsp;</div>
 </td>
 </tr>
-<tr id="i35" class="rowColor">
+<tr id="i40" class="altColor">
 <td class="colFirst"><code>protected java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#removeKeyFromJSON-org.json.JSONObject-java.lang.String-">removeKeyFromJSON</a></span>(org.json.JSONObject&nbsp;jSONObject,
                  java.lang.String&nbsp;key)</code>
@@ -408,19 +438,19 @@ extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseD
 </div>
 </td>
 </tr>
-<tr id="i36" class="altColor">
+<tr id="i41" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#removeUnnecessaryItemsFromAttributes--">removeUnnecessaryItemsFromAttributes</a></span>()</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;&nbsp;</div>
 </td>
 </tr>
-<tr id="i37" class="rowColor">
+<tr id="i42" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setAttributes-java.util.Map-">setAttributes</a></span>(java.util.Map&lt;java.lang.String,java.lang.Object&gt;&nbsp;attributes)</code>
 <div class="block">自由項目を設定します。</div>
 </td>
 </tr>
-<tr id="i38" class="altColor">
+<tr id="i43" class="rowColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setAttributesByJSON-org.json.JSONObject-">setAttributesByJSON</a></span>(org.json.JSONObject&nbsp;jSONObject)</code>
 <div class="block"><span class="deprecatedLabel">非推奨です。</span>&nbsp;
@@ -428,146 +458,176 @@ extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseD
 </div>
 </td>
 </tr>
-<tr id="i39" class="rowColor">
+<tr id="i44" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setAttributesValue-java.lang.String-java.lang.Object-">setAttributesValue</a></span>(java.lang.String&nbsp;key,
                   java.lang.Object&nbsp;value)</code>
 <div class="block">自由項目にデータを追加します。</div>
 </td>
 </tr>
-<tr id="i40" class="altColor">
+<tr id="i45" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setAuthor-java.lang.String-">setAuthor</a></span>(java.lang.String&nbsp;author)</code>
 <div class="block">作成者を設定します。</div>
 </td>
 </tr>
-<tr id="i41" class="rowColor">
+<tr id="i46" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setCategory-java.lang.String-">setCategory</a></span>(java.lang.String&nbsp;category)</code>
 <div class="block">カテゴリコードを設定します。</div>
 </td>
 </tr>
-<tr id="i42" class="altColor">
+<tr id="i47" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setCategoryName-java.lang.String-">setCategoryName</a></span>(java.lang.String&nbsp;categoryName)</code>
 <div class="block">カテゴリ名称を設定します。</div>
 </td>
 </tr>
-<tr id="i43" class="rowColor">
+<tr id="i48" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setDate-java.util.Calendar-">setDate</a></span>(java.util.Calendar&nbsp;date)</code>
 <div class="block">作成日時を設定します。</div>
 </td>
 </tr>
-<tr id="i44" class="altColor">
+<tr id="i49" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setDescription-java.lang.String-">setDescription</a></span>(java.lang.String&nbsp;description)</code>
 <div class="block">内容を設定します。</div>
 </td>
 </tr>
-<tr id="i45" class="rowColor">
+<tr id="i50" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setFavoriteCount-java.lang.Integer-">setFavoriteCount</a></span>(java.lang.Integer&nbsp;favorite_count)</code>
+<div class="block">お気に入り件数を設定します。</div>
+</td>
+</tr>
+<tr id="i51" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setFavoriteDate-java.util.Calendar-">setFavoriteDate</a></span>(java.util.Calendar&nbsp;favorite_date)</code>
+<div class="block">お気に入り更新日時を設定します。</div>
+</td>
+</tr>
+<tr id="i52" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setGenre-java.lang.String-">setGenre</a></span>(java.lang.String&nbsp;genre)</code>
 <div class="block">ジャンルコードを設定します。</div>
 </td>
 </tr>
-<tr id="i46" class="altColor">
+<tr id="i53" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setGenreName-java.lang.String-">setGenreName</a></span>(java.lang.String&nbsp;genreName)</code>
 <div class="block">ジャンル名を設定します。</div>
 </td>
 </tr>
-<tr id="i47" class="rowColor">
+<tr id="i54" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setIsFavorite-java.lang.Boolean-">setIsFavorite</a></span>(java.lang.Boolean&nbsp;is_favorite)</code>
+<div class="block">お気に入り登録フラグを設定します。</div>
+</td>
+</tr>
+<tr id="i55" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setMatchSegmentFlg-java.lang.Boolean-">setMatchSegmentFlg</a></span>(java.lang.Boolean&nbsp;matchSegmentFlg)</code>
 <div class="block">配信条件一致フラグを設定します。</div>
 </td>
 </tr>
-<tr id="i48" class="altColor">
+<tr id="i56" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setNewsId-java.lang.String-">setNewsId</a></span>(java.lang.String&nbsp;newsId)</code>
 <div class="block">ニュースIDを設定します。</div>
 </td>
 </tr>
-<tr id="i49" class="rowColor">
+<tr id="i57" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setNewsSegmentConditions-java.util.Map-">setNewsSegmentConditions</a></span>(java.util.Map&lt;java.lang.String,java.lang.Object&gt;&nbsp;newsSegmentConditions)</code>
 <div class="block">配信状況情報を設定します。</div>
 </td>
 </tr>
-<tr id="i50" class="altColor">
+<tr id="i58" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setPhoto-java.lang.String-">setPhoto</a></span>(java.lang.String&nbsp;photo)</code>
 <div class="block">TOP画像を設定します。</div>
 </td>
 </tr>
-<tr id="i51" class="rowColor">
+<tr id="i59" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setPushDoneFlg-java.lang.Boolean-">setPushDoneFlg</a></span>(java.lang.Boolean&nbsp;pushDoneFlg)</code>
 <div class="block">プッシュ通知済みかどうかを設定します。</div>
 </td>
 </tr>
-<tr id="i52" class="altColor">
+<tr id="i60" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setPushTime-java.util.Calendar-">setPushTime</a></span>(java.util.Calendar&nbsp;pushTime)</code>
 <div class="block">プッシュ通知予約日時を設定します。</div>
 </td>
 </tr>
-<tr id="i53" class="rowColor">
+<tr id="i61" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReadedDte-java.util.Calendar-">setReadedDte</a></span>(java.util.Calendar&nbsp;readedDte)</code>
+<div class="block">既読日時を設定します。</div>
+</td>
+</tr>
+<tr id="i62" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReadedFlg-java.lang.Boolean-">setReadedFlg</a></span>(java.lang.Boolean&nbsp;readedFlg)</code>
+<div class="block">既読フラグを設定します。</div>
+</td>
+</tr>
+<tr id="i63" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReleaseEndDate-java.util.Calendar-">setReleaseEndDate</a></span>(java.util.Calendar&nbsp;releaseEndDate)</code>
 <div class="block">公開終了日時を設定します。</div>
 </td>
 </tr>
-<tr id="i54" class="altColor">
+<tr id="i64" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReleaseFlg-java.lang.Boolean-">setReleaseFlg</a></span>(java.lang.Boolean&nbsp;releaseFlg)</code>
 <div class="block">公開されているかどうかを設定します。</div>
 </td>
 </tr>
-<tr id="i55" class="rowColor">
+<tr id="i65" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReleaseFromDate-java.util.Calendar-">setReleaseFromDate</a></span>(java.util.Calendar&nbsp;releaseFromDate)</code>
 <div class="block">公開開始日時を設定します。</div>
 </td>
 </tr>
-<tr id="i56" class="altColor">
+<tr id="i66" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReleaseTargetKbn-java.lang.String-">setReleaseTargetKbn</a></span>(java.lang.String&nbsp;releaseTargetKbn)</code>
 <div class="block">公開対象者区分を設定します。</div>
 </td>
 </tr>
-<tr id="i57" class="rowColor">
+<tr id="i67" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setReleaseTargetKbnName-java.lang.String-">setReleaseTargetKbnName</a></span>(java.lang.String&nbsp;releaseTargetKbnName)</code>
 <div class="block">公開対象者区分名称を設定します。</div>
 </td>
 </tr>
-<tr id="i58" class="altColor">
+<tr id="i68" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setRssFlg-java.lang.Boolean-">setRssFlg</a></span>(java.lang.Boolean&nbsp;rssFlg)</code>
 <div class="block">RSSI出力するかどうかを設定します。</div>
 </td>
 </tr>
-<tr id="i59" class="rowColor">
+<tr id="i69" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setTenantId-java.lang.String-">setTenantId</a></span>(java.lang.String&nbsp;tenantId)</code>
 <div class="block">テナントIDを設定します。</div>
 </td>
 </tr>
-<tr id="i60" class="altColor">
+<tr id="i70" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setTitle-java.lang.String-">setTitle</a></span>(java.lang.String&nbsp;title)</code>
 <div class="block">タイトルを設定します。</div>
 </td>
 </tr>
-<tr id="i61" class="rowColor">
+<tr id="i71" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setUrl-java.lang.String-">setUrl</a></span>(java.lang.String&nbsp;url)</code>
 <div class="block">ニュースURLを設定します。</div>
 </td>
 </tr>
-<tr id="i62" class="altColor">
+<tr id="i72" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/News.html#setUsePushFlg-java.lang.Boolean-">setUsePushFlg</a></span>(java.lang.Boolean&nbsp;usePushFlg)</code>
 <div class="block">プッシュ配信を利用しているかどうかを設定します。</div>
@@ -1359,6 +1419,146 @@ extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseD
 <dl>
 <dt><span class="paramLabel">パラメータ:</span></dt>
 <dd><code>matchSegmentFlg</code> - 配信条件一致フラグ</dd>
+</dl>
+</li>
+</ul>
+<a name="getReadedFlg--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReadedFlg</h4>
+<pre>public&nbsp;java.lang.Boolean&nbsp;getReadedFlg()</pre>
+<div class="block">既読フラグを取得します。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>既読フラグ</dd>
+</dl>
+</li>
+</ul>
+<a name="setReadedFlg-java.lang.Boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReadedFlg</h4>
+<pre>public&nbsp;void&nbsp;setReadedFlg(java.lang.Boolean&nbsp;readedFlg)</pre>
+<div class="block">既読フラグを設定します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>readedFlg</code> - 既読フラグ</dd>
+</dl>
+</li>
+</ul>
+<a name="getReadedDte--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getReadedDte</h4>
+<pre>public&nbsp;java.util.Calendar&nbsp;getReadedDte()</pre>
+<div class="block">既読日時を取得します。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>既読日時</dd>
+</dl>
+</li>
+</ul>
+<a name="setReadedDte-java.util.Calendar-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setReadedDte</h4>
+<pre>public&nbsp;void&nbsp;setReadedDte(java.util.Calendar&nbsp;readedDte)</pre>
+<div class="block">既読日時を設定します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>readedDte</code> - 既読日時</dd>
+</dl>
+</li>
+</ul>
+<a name="getIsFavorite--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getIsFavorite</h4>
+<pre>public&nbsp;java.lang.Boolean&nbsp;getIsFavorite()</pre>
+<div class="block">お気に入り登録フラグを取得します。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>ユーザー自身がお気に入り登録している場合`true`</dd>
+</dl>
+</li>
+</ul>
+<a name="setIsFavorite-java.lang.Boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setIsFavorite</h4>
+<pre>public&nbsp;void&nbsp;setIsFavorite(java.lang.Boolean&nbsp;is_favorite)</pre>
+<div class="block">お気に入り登録フラグを設定します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>is_favorite</code> - お気に入り登録フラグ</dd>
+</dl>
+</li>
+</ul>
+<a name="getFavoriteDate--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getFavoriteDate</h4>
+<pre>public&nbsp;java.util.Calendar&nbsp;getFavoriteDate()</pre>
+<div class="block">お気に入り更新日時を取得します。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>お気に入り更新日時</dd>
+</dl>
+</li>
+</ul>
+<a name="setFavoriteDate-java.util.Calendar-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setFavoriteDate</h4>
+<pre>public&nbsp;void&nbsp;setFavoriteDate(java.util.Calendar&nbsp;favorite_date)</pre>
+<div class="block">お気に入り更新日時を設定します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>favorite_date</code> - お気に入り更新日時</dd>
+</dl>
+</li>
+</ul>
+<a name="getFavoriteCount--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getFavoriteCount</h4>
+<pre>public&nbsp;java.lang.Integer&nbsp;getFavoriteCount()</pre>
+<div class="block">お気に入り件数を取得します。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>お気に入り件数</dd>
+</dl>
+</li>
+</ul>
+<a name="setFavoriteCount-java.lang.Integer-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setFavoriteCount</h4>
+<pre>public&nbsp;void&nbsp;setFavoriteCount(java.lang.Integer&nbsp;favorite_count)</pre>
+<div class="block">お気に入り件数を設定します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>favorite_count</code> - お気に入り件数</dd>
 </dl>
 </li>
 </ul>

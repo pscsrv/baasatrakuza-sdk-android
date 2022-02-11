@@ -18,8 +18,8 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10};
-var tabs = {65535:["t0","すべてのメソッド"],2:["t2","インスタンス・メソッド"],8:["t4","concreteメソッド"]};
+var methods = {"i0":9,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10};
+var tabs = {65535:["t0","すべてのメソッド"],1:["t1","staticメソッド"],2:["t2","インスタンス・メソッド"],8:["t4","concreteメソッド"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
 var tableTab = "tableTab";
@@ -132,23 +132,29 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_GIF">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_GIF</a></span></code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_BINARY">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_BINARY</a></span></code>
 <div class="block">アップロードファイルのMIMEタイプに指定する文字列です。</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_JPEG">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_JPEG</a></span></code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_GIF">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_GIF</a></span></code>
 <div class="block">アップロードファイルのMIMEタイプに指定する文字列です。</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_PNG">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_PNG</a></span></code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_JPEG">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_JPEG</a></span></code>
 <div class="block">アップロードファイルのMIMEタイプに指定する文字列です。</div>
 </td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>static java.lang.String</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_PNG">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_IMAGE_PNG</a></span></code>
+<div class="block">アップロードファイルのMIMEタイプに指定する文字列です。</div>
+</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>static java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#RKZ_MIME_TYPE_FOR_UPLOAD_FILE_MOVIE_MP4">RKZ_MIME_TYPE_FOR_UPLOAD_FILE_MOVIE_MP4</a></span></code>
 <div class="block">アップロードファイルのMIMEタイプに指定する文字列です。</div>
@@ -183,42 +189,48 @@ extends java.lang.Object</pre>
 </a>
 <h3>メソッドのサマリー</h3>
 <table class="memberSummary" border="0" cellpadding="3" cellspacing="0" summary="メソッドのサマリー表、メソッドのリストおよび説明">
-<caption><span id="t0" class="activeTableTab"><span>すべてのメソッド</span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">インスタンス・メソッド</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">concreteメソッド</a></span><span class="tabEnd">&nbsp;</span></span></caption>
+<caption><span id="t0" class="activeTableTab"><span>すべてのメソッド</span><span class="tabEnd">&nbsp;</span></span><span id="t1" class="tableTab"><span><a href="javascript:show(1);">staticメソッド</a></span><span class="tabEnd">&nbsp;</span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">インスタンス・メソッド</a></span><span class="tabEnd">&nbsp;</span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">concreteメソッド</a></span><span class="tabEnd">&nbsp;</span></span></caption>
 <tr>
 <th class="colFirst" scope="col">修飾子とタイプ</th>
 <th class="colLast" scope="col">メソッドと説明</th>
 </tr>
 <tr id="i0" class="altColor">
+<td class="colFirst"><code>static <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZUploadFile</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#empty--">empty</a></span>()</code>
+<div class="block">空を表すファイルを返します。</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#getFileName--">getFileName</a></span>()</code>
 <div class="block">アップロード後のファイル名を取得します。</div>
 </td>
 </tr>
-<tr id="i1" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#getMimeType--">getMimeType</a></span>()</code>
 <div class="block">アップロードファイルのMIMEタイプを取得します。</div>
 </td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>byte[]</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#getUploadFile--">getUploadFile</a></span>()</code>
 <div class="block">アップロードするファイルのバイナリデータを取得します。</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#setFileName-java.lang.String-">setFileName</a></span>(java.lang.String&nbsp;fileName)</code>
 <div class="block">アップロード後のファイル名を設定</div>
 </td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#setMimeType-java.lang.String-">setMimeType</a></span>(java.lang.String&nbsp;mimeType)</code>
 <div class="block">アップロードファイルのMIMEタイプを設定します。</div>
 </td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html#setUploadFile-byte:A-">setUploadFile</a></span>(byte[]&nbsp;uploadFile)</code>
 <div class="block">アップロードするファイルのバイナリデータを設定します。</div>
@@ -282,12 +294,24 @@ extends java.lang.Object</pre>
 <a name="RKZ_MIME_TYPE_FOR_UPLOAD_FILE_MOVIE_MP4">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>RKZ_MIME_TYPE_FOR_UPLOAD_FILE_MOVIE_MP4</h4>
 <pre>public static&nbsp;java.lang.String RKZ_MIME_TYPE_FOR_UPLOAD_FILE_MOVIE_MP4</pre>
 <div class="block">アップロードファイルのMIMEタイプに指定する文字列です。<br>
  このタイプはMP4動画をアップロードする際に使用します。</div>
+</li>
+</ul>
+<a name="RKZ_MIME_TYPE_FOR_UPLOAD_FILE_BINARY">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>RKZ_MIME_TYPE_FOR_UPLOAD_FILE_BINARY</h4>
+<pre>public static&nbsp;java.lang.String RKZ_MIME_TYPE_FOR_UPLOAD_FILE_BINARY</pre>
+<div class="block">アップロードファイルのMIMEタイプに指定する文字列です。<br>
+ このタイプはその他のバイナリファイルをアップロードする際に使用します。<br>
+ 他の定数に一致するMIMEタイプがない場合はこの値を指定してください。</div>
 </li>
 </ul>
 </li>
@@ -317,6 +341,22 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>メソッドの詳細</h3>
+<a name="empty--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>empty</h4>
+<pre>public static&nbsp;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZUploadFile</a>&nbsp;empty()</pre>
+<div class="block">空を表すファイルを返します。
+
+ ファイルを削除する場合は、このメソッドの戻り値を登録してください。</div>
+<dl>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>空を表すファイル</dd>
+</dl>
+</li>
+</ul>
 <a name="getUploadFile--">
 <!--   -->
 </a>

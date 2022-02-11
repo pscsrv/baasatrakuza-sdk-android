@@ -92,14 +92,14 @@ var activeTableTab = "activeTableTab";
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
 <div class="subTitle">jp.co.pscsrv.android.baasatrakuza.model</div>
-<h2 title="クラス PagingData" class="title">クラス PagingData</h2>
+<h2 title="クラス PagingData" class="title">クラス PagingData&lt;T extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</h2>
 </div>
 <div class="contentContainer">
 <ul class="inheritance">
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>jp.co.pscsrv.android.baasatrakuza.model.PagingData</li>
+<li>jp.co.pscsrv.android.baasatrakuza.model.PagingData&lt;T&gt;</li>
 </ul>
 </li>
 </ul>
@@ -108,7 +108,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <hr>
 <br>
-<pre>public class <span class="typeNameLabel">PagingData</span>
+<pre>public class <span class="typeNameLabel">PagingData&lt;T extends <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</span>
 extends java.lang.Object</pre>
 <div class="block">Created by matsumoto on 2017/04/06.</div>
 </li>
@@ -132,10 +132,16 @@ extends java.lang.Object</pre>
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html#PagingData--">PagingData</a></span>()</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html#PagingData-java.lang.Integer-java.lang.Integer-java.lang.String-jp.co.pscsrv.android.baasatrakuza.model.BaseData-">PagingData</a></span>(java.lang.Integer&nbsp;limit,
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html#PagingData-java.lang.Integer-java.lang.Integer-java.lang.Integer-java.util.List-">PagingData</a></span>(java.lang.Integer&nbsp;limit,
+          java.lang.Integer&nbsp;offset,
+          java.lang.Integer&nbsp;resultCnt,
+          java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&gt;&nbsp;datas)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html#PagingData-java.lang.Integer-java.lang.Integer-java.lang.String-T-">PagingData</a></span>(java.lang.Integer&nbsp;limit,
           java.lang.Integer&nbsp;offset,
           java.lang.String&nbsp;json,
-          <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&nbsp;baseData)</code>&nbsp;</td>
+          <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&nbsp;baseData)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -153,7 +159,7 @@ extends java.lang.Object</pre>
 <th class="colLast" scope="col">メソッドと説明</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</code></td>
+<td class="colFirst"><code>java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html#getDatas--">getDatas</a></span>()</code>
 <div class="block">取得データを復帰します。</div>
 </td>
@@ -217,19 +223,33 @@ extends java.lang.Object</pre>
 </ul>
 <a name="PagingData-java.lang.Integer-java.lang.Integer-java.lang.String-jp.co.pscsrv.android.baasatrakuza.model.BaseData-">
 <!--   -->
+</a><a name="PagingData-java.lang.Integer-java.lang.Integer-java.lang.String-T-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>PagingData</h4>
+<pre>public&nbsp;PagingData(java.lang.Integer&nbsp;limit,
+                  java.lang.Integer&nbsp;offset,
+                  java.lang.String&nbsp;json,
+                  <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&nbsp;baseData)
+           throws <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/core/RKZResponseStatus.html" title="jp.co.pscsrv.android.baasatrakuza.core内のクラス">RKZResponseStatus</a></pre>
+<dl>
+<dt><span class="throwsLabel">例外:</span></dt>
+<dd><code><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/core/RKZResponseStatus.html" title="jp.co.pscsrv.android.baasatrakuza.core内のクラス">RKZResponseStatus</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="PagingData-java.lang.Integer-java.lang.Integer-java.lang.Integer-java.util.List-">
+<!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>PagingData</h4>
 <pre>public&nbsp;PagingData(java.lang.Integer&nbsp;limit,
                   java.lang.Integer&nbsp;offset,
-                  java.lang.String&nbsp;json,
-                  <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&nbsp;baseData)
-           throws <a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/core/RKZResponseStatus.html" title="jp.co.pscsrv.android.baasatrakuza.core内のクラス">RKZResponseStatus</a></pre>
-<dl>
-<dt><span class="throwsLabel">例外:</span></dt>
-<dd><code><a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/core/RKZResponseStatus.html" title="jp.co.pscsrv.android.baasatrakuza.core内のクラス">RKZResponseStatus</a></code></dd>
-</dl>
+                  java.lang.Integer&nbsp;resultCnt,
+                  java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&gt;&nbsp;datas)</pre>
 </li>
 </ul>
 </li>
@@ -303,7 +323,7 @@ extends java.lang.Object</pre>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>getDatas</h4>
-<pre>public&nbsp;java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;&nbsp;getDatas()</pre>
+<pre>public&nbsp;java.util.List&lt;<a href="../../../../../../jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a>&gt;&nbsp;getDatas()</pre>
 <div class="block">取得データを復帰します。</div>
 <dl>
 <dt><span class="returnLabel">戻り値:</span></dt>
