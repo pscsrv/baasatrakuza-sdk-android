@@ -6,15 +6,16 @@
 <title>索引 (BaaS@rakuza SDK for Android)</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
-<link rel="stylesheet" type="text/css" href="jquery/jquery-ui.css" title="Style">
+<link rel="stylesheet" type="text/css" href="jquery/jquery-ui.min.css" title="Style">
+<link rel="stylesheet" type="text/css" href="jquery-ui.overrides.css" title="Style">
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="jquery/jszip/dist/jszip.min.js"></script>
 <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils.min.js"></script>
 <!--[if IE]>
 <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils-ie.min.js"></script>
 <![endif]-->
-<script type="text/javascript" src="jquery/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="jquery/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
 </head>
 <body>
 <script type="text/javascript"><!--
@@ -352,6 +353,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html#deleteObjectDataFromFavorite(jp.co.pscsrv.android.baasatrakuza.model.RKZObjectData,java.lang.String,jp.co.pscsrv.android.baasatrakuza.listener.OnDeleteFavoriteListener)">deleteObjectDataFromFavorite(RKZObjectData, String, OnDeleteFavoriteListener)</a></span> - クラス のメソッドjp.co.pscsrv.android.baasatrakuza.client.<a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZClient</a></dt>
 <dd>
 <div class="block">オブジェクトデータのお気に入り情報を削除する。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html#deleteUser(java.lang.String,jp.co.pscsrv.android.baasatrakuza.listener.OnDeleteUserListener)">deleteUser(String, OnDeleteUserListener)</a></span> - クラス のメソッドjp.co.pscsrv.android.baasatrakuza.client.<a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZClient</a></dt>
+<dd>
+<div class="block">ユーザー情報を削除する</div>
 </dd>
 <dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html#deleteUserDetail(java.lang.String,java.lang.String,java.util.List,jp.co.pscsrv.android.baasatrakuza.listener.OnDeleteUserDetailListener)">deleteUserDetail(String, String, List&lt;RKZSearchCondition&gt;, OnDeleteUserDetailListener)</a></span> - クラス のメソッドjp.co.pscsrv.android.baasatrakuza.client.<a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZClient</a></dt>
 <dd>
@@ -2572,6 +2577,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="deprecationBlock"><span class="deprecatedLabel">推奨されていません。</span>&nbsp;</div>
 </dd>
+<dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserListener.html#onDeleteUser(jp.co.pscsrv.android.baasatrakuza.core.RKZResponseStatus)">onDeleteUser(RKZResponseStatus)</a></span> - インタフェース のメソッドjp.co.pscsrv.android.baasatrakuza.listener.<a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnDeleteUserListener</a></dt>
+<dd>
+<div class="block">ユーザー情報を削除した時のコールバックメソッド</div>
+</dd>
 <dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserDetailListener.html#onDeleteUserDetail(java.lang.Integer,jp.co.pscsrv.android.baasatrakuza.core.RKZResponseStatus)">onDeleteUserDetail(Integer, RKZResponseStatus)</a></span> - インタフェース のメソッドjp.co.pscsrv.android.baasatrakuza.listener.<a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserDetailListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnDeleteUserDetailListener</a></dt>
 <dd>
 <div class="block">ユーザー詳細を削除した時のコールバックメソッド</div>
@@ -2579,6 +2588,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserDetailListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース"><span class="typeNameLink">OnDeleteUserDetailListener</span></a> - <a href="jp/co/pscsrv/android/baasatrakuza/listener/package-summary.html">jp.co.pscsrv.android.baasatrakuza.listener</a>のインタフェース</dt>
 <dd>
 <div class="block">ユーザー詳細を削除した時のコールバックメソッドを持つインターフェースです</div>
+</dd>
+<dt><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース"><span class="typeNameLink">OnDeleteUserListener</span></a> - <a href="jp/co/pscsrv/android/baasatrakuza/listener/package-summary.html">jp.co.pscsrv.android.baasatrakuza.listener</a>のインタフェース</dt>
+<dd>
+<div class="block">ユーザー情報を削除した時のコールバックメソッドを持つインターフェースです。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditPasswordListener.html#onEditPassword(jp.co.pscsrv.android.baasatrakuza.core.RKZResponseStatus)">onEditPassword(RKZResponseStatus)</a></span> - インタフェース のメソッドjp.co.pscsrv.android.baasatrakuza.listener.<a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditPasswordListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnEditPasswordListener</a></dt>
 <dd>
@@ -2977,6 +2990,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnUseMyCouponListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース"><span class="typeNameLink">OnUseMyCouponListener</span></a> - <a href="jp/co/pscsrv/android/baasatrakuza/listener/package-summary.html">jp.co.pscsrv.android.baasatrakuza.listener</a>のインタフェース</dt>
 <dd>
 <div class="block">マイクーポンを使用した時のコールバックメソッドを持つインタフェースです。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html#openPush(java.lang.String,java.lang.Integer,jp.co.pscsrv.android.baasatrakuza.listener.OnOpenPushListener)">openPush(String, Integer, OnOpenPushListener)</a></span> - クラス のメソッドjp.co.pscsrv.android.baasatrakuza.client.<a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZClient</a></dt>
+<dd>
+<div class="block">プッシュ通知を開封済みにします。</div>
 </dd>
 </dl>
 <a id="I:P">

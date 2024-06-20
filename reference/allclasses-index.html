@@ -6,15 +6,16 @@
 <title>すべてのクラス (BaaS@rakuza SDK for Android)</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="stylesheet.css" title="Style">
-<link rel="stylesheet" type="text/css" href="jquery/jquery-ui.css" title="Style">
+<link rel="stylesheet" type="text/css" href="jquery/jquery-ui.min.css" title="Style">
+<link rel="stylesheet" type="text/css" href="jquery-ui.overrides.css" title="Style">
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="jquery/jszip/dist/jszip.min.js"></script>
 <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils.min.js"></script>
 <!--[if IE]>
 <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils-ie.min.js"></script>
 <![endif]-->
-<script type="text/javascript" src="jquery/jquery-3.5.1.js"></script>
-<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="jquery/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
 </head>
 <body>
 <script type="text/javascript"><!--
@@ -26,7 +27,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":2,"i1":2,"i2":2,"i3":2,"i4":2,"i5":2,"i6":2,"i7":2,"i8":2,"i9":2,"i10":2,"i11":2,"i12":2,"i13":2,"i14":2,"i15":2,"i16":2,"i17":2,"i18":2,"i19":2,"i20":2,"i21":1,"i22":1,"i23":1,"i24":1,"i25":1,"i26":1,"i27":1,"i28":1,"i29":1,"i30":1,"i31":1,"i32":1,"i33":1,"i34":1,"i35":1,"i36":1,"i37":1,"i38":1,"i39":1,"i40":1,"i41":1,"i42":1,"i43":1,"i44":1,"i45":1,"i46":1,"i47":1,"i48":1,"i49":1,"i50":1,"i51":1,"i52":1,"i53":1,"i54":1,"i55":1,"i56":1,"i57":1,"i58":1,"i59":1,"i60":1,"i61":1,"i62":1,"i63":1,"i64":1,"i65":1,"i66":1,"i67":1,"i68":1,"i69":1,"i70":1,"i71":1,"i72":1,"i73":1,"i74":1,"i75":1,"i76":1,"i77":1,"i78":1,"i79":1,"i80":1,"i81":1,"i82":1,"i83":1,"i84":1,"i85":2,"i86":2,"i87":2,"i88":2,"i89":2,"i90":2,"i91":2,"i92":2,"i93":2,"i94":2,"i95":2,"i96":8,"i97":2,"i98":4,"i99":4,"i100":2,"i101":2,"i102":2,"i103":2,"i104":2,"i105":2,"i106":2,"i107":2,"i108":2,"i109":2,"i110":2,"i111":4,"i112":2};
+var data = {"i0":2,"i1":2,"i2":2,"i3":2,"i4":2,"i5":2,"i6":2,"i7":2,"i8":2,"i9":2,"i10":2,"i11":2,"i12":2,"i13":2,"i14":2,"i15":2,"i16":2,"i17":2,"i18":2,"i19":2,"i20":2,"i21":1,"i22":1,"i23":1,"i24":1,"i25":1,"i26":1,"i27":1,"i28":1,"i29":1,"i30":1,"i31":1,"i32":1,"i33":1,"i34":1,"i35":1,"i36":1,"i37":1,"i38":1,"i39":1,"i40":1,"i41":1,"i42":1,"i43":1,"i44":1,"i45":1,"i46":1,"i47":1,"i48":1,"i49":1,"i50":1,"i51":1,"i52":1,"i53":1,"i54":1,"i55":1,"i56":1,"i57":1,"i58":1,"i59":1,"i60":1,"i61":1,"i62":1,"i63":1,"i64":1,"i65":1,"i66":1,"i67":1,"i68":1,"i69":1,"i70":1,"i71":1,"i72":1,"i73":1,"i74":1,"i75":1,"i76":1,"i77":1,"i78":1,"i79":1,"i80":1,"i81":1,"i82":1,"i83":1,"i84":1,"i85":1,"i86":2,"i87":2,"i88":2,"i89":2,"i90":2,"i91":2,"i92":2,"i93":2,"i94":2,"i95":2,"i96":2,"i97":8,"i98":2,"i99":4,"i100":4,"i101":2,"i102":2,"i103":2,"i104":2,"i105":2,"i106":2,"i107":2,"i108":2,"i109":2,"i110":2,"i111":2,"i112":4,"i113":2};
 var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30AF\u30E9\u30B9"],1:["t1","\u30A4\u30F3\u30BF\u30D5\u30A7\u30FC\u30B9\u306E\u6982\u8981"],2:["t2","\u30AF\u30E9\u30B9\u306E\u6982\u8981"],4:["t3","\u5217\u6319\u578B\u306E\u6982\u8981"],8:["t4","\u4F8B\u5916\u306E\u6982\u8981"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -304,454 +305,460 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </th>
 </tr>
 <tr id="i34" class="altColor">
+<td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnDeleteUserListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnDeleteUserListener</a></td>
+<th class="colLast" scope="row">
+<div class="block">ユーザー情報を削除した時のコールバックメソッドを持つインターフェースです。</div>
+</th>
+</tr>
+<tr id="i35" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditPasswordListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnEditPasswordListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">パスワードを変更した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i35" class="rowColor">
+<tr id="i36" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditRKZObjectDataListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnEditRKZObjectDataListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">オブジェクトのデータを編集した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i36" class="altColor">
+<tr id="i37" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditUserDetailListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnEditUserDetailListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細を編集した時のコールバックメソッドを持つインターフェースです</div>
 </th>
 </tr>
-<tr id="i37" class="rowColor">
+<tr id="i38" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnEditUserListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnEditUserListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー情報を編集した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i38" class="altColor">
+<tr id="i39" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnExchangeCouponListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnExchangeCouponListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">クーポン交換を行った時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i39" class="rowColor">
+<tr id="i40" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetAcquisitionStateOfStampListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetAcquisitionStateOfStampListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプ取得履歴取得したときのコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i40" class="altColor">
+<tr id="i41" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetApplicationSettingDataListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetApplicationSettingDataListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">アプリケーション設定情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i41" class="rowColor">
+<tr id="i42" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetBeaconListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetBeaconListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数ビーコン情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i42" class="altColor">
+<tr id="i43" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetBeaconSpotListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetBeaconSpotListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数ビーコンスポット情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i43" class="rowColor">
+<tr id="i44" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetCalendarListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetCalendarListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i44" class="altColor">
+<tr id="i45" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetContactListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetContactListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">コンタクト履歴一覧取得したときのコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i45" class="rowColor">
+<tr id="i46" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetCouponListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetCouponListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">単一クーポン情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i46" class="altColor">
+<tr id="i47" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetCouponListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetCouponListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数クーポン情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i47" class="rowColor">
+<tr id="i48" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetDataListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetDataListListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i48" class="altColor">
+<tr id="i49" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetDeleteCntListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetDeleteCntListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i49" class="rowColor">
+<tr id="i50" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetDetectBeaconContactListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetDetectBeaconContactListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ビーコン検知コンタクト情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i50" class="altColor">
+<tr id="i51" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetLocaleListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetLocaleListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数言語情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i51" class="rowColor">
+<tr id="i52" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetMyCouponListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetMyCouponListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">単一マイクーポン情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i52" class="altColor">
+<tr id="i53" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetMyCouponListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetMyCouponListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数マイクーポン情報を取得した時のコールバックメソッドを持つインタフェース</div>
 </th>
 </tr>
-<tr id="i53" class="rowColor">
+<tr id="i54" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetNewsListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetNewsListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">単一お知らせ情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i54" class="altColor">
+<tr id="i55" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetNewsListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetNewsListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数お知らせ情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i55" class="rowColor">
+<tr id="i56" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetNewsReadHistoryListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetNewsReadHistoryListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">単一お知らせ既読情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i56" class="altColor">
+<tr id="i57" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetNewsReadHistoryListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetNewsReadHistoryListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数お知らせ既読情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i57" class="rowColor">
+<tr id="i58" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetPagingDataListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetPagingDataListener</a>&lt;<a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetPagingDataListener.html" title="OnGetPagingDataListener内の型パラメータ">T</a> extends <a href="jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</td>
 <th class="colLast" scope="row">
 <div class="block">ページング情報付きの情報を取得したときのコールバックメソッドを待つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i58" class="altColor">
+<tr id="i59" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetPointListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetPointListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ポイント情報を取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i59" class="rowColor">
+<tr id="i60" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetReleasedNewsListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetReleasedNewsListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数お知らせ情報を取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i60" class="altColor">
+<tr id="i61" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetRKZFieldDataListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetRKZFieldDataListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">オブジェクトの複数データを取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i61" class="rowColor">
+<tr id="i62" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetRKZObjectDataListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetRKZObjectDataListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">オブジェクトの単一データを取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i62" class="altColor">
+<tr id="i63" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetRKZObjectDataListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetRKZObjectDataListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">オブジェクトの複数データを取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i63" class="rowColor">
+<tr id="i64" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetRKZWebViewListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetRKZWebViewListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">イベント申し込み用WebViewを取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i64" class="altColor">
+<tr id="i65" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetSingleDataListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetSingleDataListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i65" class="rowColor">
+<tr id="i66" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetSpotListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetSpotListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">複数スポット情報を取得した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i66" class="altColor">
+<tr id="i67" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetStampRallyListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetStampRallyListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプラリーを取得したときのコールバックメソッドを待つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i67" class="rowColor">
+<tr id="i68" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetStampRallySpotListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetStampRallySpotListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプラリースポットを取得したときのコールバックメソッドを待つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i68" class="altColor">
+<tr id="i69" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetStatusCodeListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetStatusCodeListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i69" class="rowColor">
+<tr id="i70" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetStringListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetStringListener</a></td>
 <th class="colLast" scope="row">推奨されていません。&nbsp;</th>
 </tr>
-<tr id="i70" class="altColor">
+<tr id="i71" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetSystemDateListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetSystemDateListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">システム上の日付を取得した時のコールバックメソッドを持つインタフェース</div>
 </th>
 </tr>
-<tr id="i71" class="rowColor">
+<tr id="i72" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetUserDetailListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetUserDetailListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細の単一データを取得した時のコールバックメソッドを持つインターフェースです</div>
 </th>
 </tr>
-<tr id="i72" class="altColor">
+<tr id="i73" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetUserDetailListListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetUserDetailListListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細の複数データを取得した時のコールバックメソッドを持つインターフェースです</div>
 </th>
 </tr>
-<tr id="i73" class="rowColor">
+<tr id="i74" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnGetUserListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnGetUserListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー情報を取得した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i74" class="altColor">
+<tr id="i75" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnInitializeListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnInitializeListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">RKZClientを初期化した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i75" class="rowColor">
+<tr id="i76" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnOpenPushListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnOpenPushListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">プッシュ通知を開封済みにした時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i76" class="altColor">
+<tr id="i77" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnReadNewsListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnReadNewsListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">お知らせの既読情報を登録した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i77" class="rowColor">
+<tr id="i78" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnRegistModelChangeCodeListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnRegistModelChangeCodeListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">機種変更認証コードを発行した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i78" class="altColor">
+<tr id="i79" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnRegistNewsReadHistoryListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnRegistNewsReadHistoryListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">お知らせ既読情報を登録した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i79" class="rowColor">
+<tr id="i80" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnRegistPushDeviceTokenListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnRegistPushDeviceTokenListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">プッシュトークン情報を登録した時のコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i80" class="altColor">
+<tr id="i81" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnRKZWebViewSchemeListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnRKZWebViewSchemeListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">RKZWebViewClient利用時、アンケート送信完了画面などで起動されるスキーム処理の内容を記述するコールバックメソッドを持つインターフェースです。</div>
 </th>
 </tr>
-<tr id="i81" class="rowColor">
+<tr id="i82" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnSetLocaleListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnSetLocaleListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">Created by matsumoto on 16/04/18.</div>
 </th>
 </tr>
-<tr id="i82" class="altColor">
+<tr id="i83" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnStampCompleteListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnStampCompleteListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプラリーをコンプリートしたときのコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i83" class="rowColor">
+<tr id="i84" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnUpdateUserAccessTokenListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnUpdateUserAccessTokenListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">Created by matsumoto on 2017/03/22.</div>
 </th>
 </tr>
-<tr id="i84" class="altColor">
+<tr id="i85" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/listener/OnUseMyCouponListener.html" title="jp.co.pscsrv.android.baasatrakuza.listener内のインタフェース">OnUseMyCouponListener</a></td>
 <th class="colLast" scope="row">
 <div class="block">マイクーポンを使用した時のコールバックメソッドを持つインタフェースです。</div>
 </th>
 </tr>
-<tr id="i85" class="rowColor">
+<tr id="i86" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">PagingData</a>&lt;<a href="jp/co/pscsrv/android/baasatrakuza/model/PagingData.html" title="PagingData内の型パラメータ">T</a> extends <a href="jp/co/pscsrv/android/baasatrakuza/model/BaseData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">BaseData</a>&gt;</td>
 <th class="colLast" scope="row">
 <div class="block">Created by matsumoto on 2017/04/06.</div>
 </th>
 </tr>
-<tr id="i86" class="altColor">
+<tr id="i87" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/Point.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">Point</a></td>
 <th class="colLast" scope="row">
 <div class="block">ポイント情報を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i87" class="rowColor">
+<tr id="i88" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/util/PrimitiveUtil.html" title="jp.co.pscsrv.android.baasatrakuza.util内のクラス">PrimitiveUtil</a></td>
 <th class="colLast" scope="row">&nbsp;</th>
 </tr>
-<tr id="i88" class="altColor">
+<tr id="i89" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZClient</a></td>
 <th class="colLast" scope="row">
 <div class="block">BaaS@rakuzaを利用するためのクラス。</div>
 </th>
 </tr>
-<tr id="i89" class="rowColor">
+<tr id="i90" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZFieldData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZFieldData</a></td>
 <th class="colLast" scope="row">
 <div class="block">BaaS@rakuza のフィールド定義情報を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i90" class="altColor">
+<tr id="i91" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZGetDeleteCntConnection.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZGetDeleteCntConnection</a></td>
 <th class="colLast" scope="row">&nbsp;</th>
 </tr>
-<tr id="i91" class="rowColor">
+<tr id="i92" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZGetNewUserAccessTokenConnection.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZGetNewUserAccessTokenConnection</a></td>
 <th class="colLast" scope="row">
 <div class="block">Created by matsumoto on 2017/03/22.</div>
 </th>
 </tr>
-<tr id="i92" class="altColor">
+<tr id="i93" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZGetRegistModelChangeCodeConnection.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZGetRegistModelChangeCodeConnection</a></td>
 <th class="colLast" scope="row">&nbsp;</th>
 </tr>
-<tr id="i93" class="rowColor">
+<tr id="i94" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZLocation.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZLocation</a></td>
 <th class="colLast" scope="row">
 <div class="block">位置情報を扱うためのクラスです。</div>
 </th>
 </tr>
-<tr id="i94" class="altColor">
+<tr id="i95" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZObjectData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZObjectData</a></td>
 <th class="colLast" scope="row">
 <div class="block">データオブジェクトを管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i95" class="rowColor">
+<tr id="i96" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZQRCodeData.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZQRCodeData</a></td>
 <th class="colLast" scope="row">推奨されていません。
 <div class="deprecationComment">システム内部で利用するデータ定義のため使用禁止</div>
 </th>
 </tr>
-<tr id="i96" class="altColor">
+<tr id="i97" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/core/RKZResponseStatus.html" title="jp.co.pscsrv.android.baasatrakuza.core内のクラス">RKZResponseStatus</a></td>
 <th class="colLast" scope="row">
 <div class="block">各種APIが返却する、ステータス状況を表すクラスです。</div>
 </th>
 </tr>
-<tr id="i97" class="rowColor">
+<tr id="i98" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZSearchCondition.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZSearchCondition</a></td>
 <th class="colLast" scope="row">
 <div class="block">検索条件を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i98" class="altColor">
+<tr id="i99" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZSearchCondition.ReadedNewsType.html" title="jp.co.pscsrv.android.baasatrakuza.model内の列挙型">RKZSearchCondition.ReadedNewsType</a></td>
 <th class="colLast" scope="row">
 <div class="block">お知らせ未読既読検索タイプ</div>
 </th>
 </tr>
-<tr id="i99" class="rowColor">
+<tr id="i100" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZSearchCondition.WithFavoriteType.html" title="jp.co.pscsrv.android.baasatrakuza.model内の列挙型">RKZSearchCondition.WithFavoriteType</a></td>
 <th class="colLast" scope="row">
 <div class="block">お気に入り検索タイプ</div>
 </th>
 </tr>
-<tr id="i100" class="altColor">
+<tr id="i101" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZSortCondition.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZSortCondition</a></td>
 <th class="colLast" scope="row">
 <div class="block">ソート条件を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i101" class="rowColor">
+<tr id="i102" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/RKZUploadFile.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">RKZUploadFile</a></td>
 <th class="colLast" scope="row">
 <div class="block">楽座に登録するファイルデータを管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i102" class="altColor">
+<tr id="i103" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/client/RKZWebViewClient.html" title="jp.co.pscsrv.android.baasatrakuza.client内のクラス">RKZWebViewClient</a></td>
 <th class="colLast" scope="row">
 <div class="block">BaaS@rakuza用WebViewClientクラス。</div>
 </th>
 </tr>
-<tr id="i103" class="rowColor">
+<tr id="i104" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/Spot.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">Spot</a></td>
 <th class="colLast" scope="row">
 <div class="block">スポット情報を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i104" class="altColor">
+<tr id="i105" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/SpotTenantInfo.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">SpotTenantInfo</a></td>
 <th class="colLast" scope="row">&nbsp;</th>
 </tr>
-<tr id="i105" class="rowColor">
+<tr id="i106" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/StampRally.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">StampRally</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプラリーモデル</div>
 </th>
 </tr>
-<tr id="i106" class="altColor">
+<tr id="i107" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/StampRallySpot.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">StampRallySpot</a></td>
 <th class="colLast" scope="row">
 <div class="block">スタンプラリースポットモデル</div>
 </th>
 </tr>
-<tr id="i107" class="rowColor">
+<tr id="i108" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/util/StringUtil.html" title="jp.co.pscsrv.android.baasatrakuza.util内のクラス">StringUtil</a></td>
 <th class="colLast" scope="row">
 <div class="block">文字列に関するユーティリティクラスです。</div>
 </th>
 </tr>
-<tr id="i108" class="altColor">
+<tr id="i109" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/UsedLanguage.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">UsedLanguage</a></td>
 <th class="colLast" scope="row">
 <div class="block">楽座に使用言語を登録した時に復帰されるデータクラス。</div>
 </th>
 </tr>
-<tr id="i109" class="rowColor">
+<tr id="i110" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/User.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">User</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー情報を管理するクラスです。</div>
 </th>
 </tr>
-<tr id="i110" class="altColor">
+<tr id="i111" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/UserDetail.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">UserDetail</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細情報です。</div>
 </th>
 </tr>
-<tr id="i111" class="rowColor">
+<tr id="i112" class="altColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/UserDetail.VisibilityType.html" title="jp.co.pscsrv.android.baasatrakuza.model内の列挙型">UserDetail.VisibilityType</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細の公開範囲です。</div>
 </th>
 </tr>
-<tr id="i112" class="altColor">
+<tr id="i113" class="rowColor">
 <td class="colFirst"><a href="jp/co/pscsrv/android/baasatrakuza/model/UserDetailExtensionAttribute.html" title="jp.co.pscsrv.android.baasatrakuza.model内のクラス">UserDetailExtensionAttribute</a></td>
 <th class="colLast" scope="row">
 <div class="block">ユーザー詳細管理のAPIを呼び出す際に指定する、extensionAttributesデータです。</div>
